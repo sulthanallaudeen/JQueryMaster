@@ -1,0 +1,12 @@
+{
+    "name": "sulthanallaudeen/JQueryMaster",
+    "description": "JQuery Master of Sysaxiom",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sulthan Allaudeen",
+            "email": "sa@sysaxiom.com"
+        }
+    ]
+}
