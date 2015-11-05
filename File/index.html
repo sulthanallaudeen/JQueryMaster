@@ -1,0 +1,16 @@
+<script src='jquery.min.js'></script>
+<body id='oldId' class='oldClass here'>
+<span class='changethisClass'></span>
+<span id='changethisId'></span>
+</body>
+<script>
+$( document ).ready(function() {
+console.log('Page Started');
+$('.changethisClass').html("This is Class");
+$('#changethisId').html("This is Id");
+$("body").removeClass("oldClass");
+$("body").addClass('newClass');
+$("body").removeClass("here");
+$("body").attr("id", "new");
+});
+</script>
